@@ -1,8 +1,8 @@
-
-
 *{
-    /* background-color: rgba(47, 47, 50, 1); */
+  box-sizing: border-box;
 }
+
+
 .App {
   text-align: center;
   display: flex;
@@ -44,5 +44,5 @@ text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); ;
 .fighter-img{
   /* border-radius: 5px; */
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-
+margin: 0;
 }
