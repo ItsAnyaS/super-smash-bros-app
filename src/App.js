@@ -17,10 +17,12 @@ function App() {
           return (
             <div>
               <img
+                className='fighter-img'
                 src={`https://www.smashbros.com/assets_v2/img/fighter/thumb_a/${element.toLowerCase()}.png`}
                 alt={element}
-                key={index}
+                // key={}
               />
+              <h5 className='fighter-name'>{element}</h5>
             </div>
           );
         })
