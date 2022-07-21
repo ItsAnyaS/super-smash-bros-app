@@ -1,8 +1,5 @@
 const Fighter = ({fighter, setSelectedFighter}) => {
 
-  const handleClick = (element) => {
-  setSelectedFighter(element.name)
-  }
 
     return (
       <div

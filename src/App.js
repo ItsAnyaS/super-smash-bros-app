@@ -24,7 +24,7 @@ const [selectedFighter, setSelectedFighter] = useState()
         })
       }
     </div>
-  { selectedFighter && <FighterScreen/>}
+  { selectedFighter && <FighterScreen selectedFighter={selectedFighter} setSelectedFighter={setSelectedFighter}/>}
     </div>
   );
 }
