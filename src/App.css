@@ -36,13 +36,12 @@ position: absolute;
 bottom: 0;
 right: 2%;
 color: white;
-font-size: 1em;
+font-size: 1.1em;
 text-transform: uppercase;
 text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); ;
 }
 
 .fighter-img{
-  /* border-radius: 5px; */
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 margin: 0;
 }
