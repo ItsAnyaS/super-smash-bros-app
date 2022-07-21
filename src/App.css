@@ -45,3 +45,21 @@ text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); ;
 box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 margin: 0;
 }
+
+#fighter-screen{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: lightgreen;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.char-model{
+
+}
+
+.char-name{
+  
+}
